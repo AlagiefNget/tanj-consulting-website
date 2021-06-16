@@ -51,7 +51,6 @@ const Main = () => {
             </section>
 
             {/* About us section */}
-
             <section id="about" className="about section-bg">
                 <div className="container">
                     <div className="row">
