@@ -7,42 +7,35 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6 footer-contact">
                             <h3>Tanj Consulting</h3>
                             <p>
-                                A108 Adam Street <br />
-                                New York, NY 535022<br />
-                                United States <br/><br/>
-                                <strong>Phone:</strong> +1 5589 55488 55<br />
-                                <strong>Email:</strong> info@example.com<br />
+                                47 Kairaba Avenue <br />
+                                Fajara, K.S.M.D <br />
+                                Serrekunda<br />
+                                The Gambia <br/><br/>
+                                <strong>Phone:</strong> +220 7448523 / 9852147<br />
+                                <strong>Email:</strong> tanjconsult@gmail.com<br />
                             </p>
                         </div>
 
                         <div className="col-lg-2 col-md-6 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#portfolio">Porfolio</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#partners">Partners</a></li>
                             </ul>
                         </div>
 
                         <div className="col-lg-3 col-md-6 footer-links">
                             <h4>Our Services</h4>
                             <ul>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#services">Fish Import & Export</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#services">Clothing & Jewelries</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#services">Art & Music</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#services">Construction</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a href="#services">Furniture</a></li>
                             </ul>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 footer-newsletter">
-                            <h4>Join Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                            <form action="" method="post">
-                                <input type="email" name="email"/><input type="submit" value="Subscribe" />
-                            </form>
                         </div>
                     </div>
                 </div>

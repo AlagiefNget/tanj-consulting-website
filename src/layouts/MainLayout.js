@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
 
+// Component not used yet
 const MainLayout = () => {
     return (
         <div>
