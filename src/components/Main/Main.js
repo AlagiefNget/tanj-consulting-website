@@ -8,10 +8,9 @@ const Main = () => {
                     <div className="row">
                         <div className="col-xl-4 col-lg-5" data-aos="fade-up">
                             <div className="content">
-                            {/* <h3>Why Choose Tanj Consulting for your company website?</h3> */}
                             <h3>Why Choose Tanj Consulting?</h3>
                             <p>
-                                Our structure has developed techniques work adapting to each country, our company 
+                                With over 6 years of experience in business consulting, our structure has developed work techniques adapting to each country, our company 
                                 actively participates in the development of African genius and has a good reputation 
                                 in the quality of its products developed by highly qualified staff.
                             </p>
@@ -56,17 +55,17 @@ const Main = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative" data-aos="fade-right">
-                            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="glightbox play-btn mb-4"></a>
+                            <img src="assets/img/tanjPortfolio_fisj_1.jpg" className="img-fluid" alt="" />
+                            {/* <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="glightbox play-btn mb-4"></a> */}
                         </div>
                         <div className="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
                             <h4 data-aos="fade-up">About us</h4>
-                            {/* <h3 data-aos="fade-up">Enim quis est voluptatibus aliquid consequatur fugiat</h3> */}
                             <p data-aos="fade-up">
                                 Tanj CONSULTING works for prospecting business opportunities in international trade by acting with excellence, reliability and quality technical support with ultra modern.
                                 It also works on research and service to the client, quickly and efficiently, as required by the globalization of international trade.
                                 Tanj Consulting provides consulting, internal and external consultation, representation, research, feasibility study, development and implementation of activities aimed at promoting the role of partners in national and international exchanges .
                             </p>
-                            <div className="icon-box" data-aos="fade-up">
+                            {/* <div className="icon-box" data-aos="fade-up">
                                 <div className="icon"><i className="bx bx-fingerprint"></i></div>
                                 <h4 className="title"><a href="">Lorem Ipsum</a></h4>
                                 <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
@@ -75,12 +74,12 @@ const Main = () => {
                                 <div className="icon"><i className="bx bx-gift"></i></div>
                                 <h4 className="title"><a href="">Nemo Enim</a></h4>
                                 <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                            </div>
-                            <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            </div> */}
+                            {/* <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
                                 <div className="icon"><i className="bx bx-atom"></i></div>
                                 <h4 className="title"><a href="">Dine Pad</a></h4>
                                 <p className="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -94,11 +93,11 @@ const Main = () => {
                 <div className="container" data-aos="fade-up">
                     <div className="clients-slider swiper-container">
                         <div className="swiper-wrapper align-items-center">
-                            <div className="swiper-slide"><img src="assets/img/tanjPart_1.jpg" className="img-fluid" alt="" /></div>
-                            <div className="swiper-slide"><img src="assets/img/tanjPart_2.jpg" className="img-fluid" alt="" /></div>
-                            <div className="swiper-slide"><img src="assets/img/tanjPart_3.jpg" className="img-fluid" alt="" /></div>
-                            <div className="swiper-slide"><img src="assets/img/tanjPart_4.jpg" className="img-fluid" alt="" /></div>
-                            <div className="swiper-slide"><img src="assets/img/tanjPart_5.jpg" className="img-fluid" alt="" /></div>
+                            <div className="swiper-slide" title="SOY Natura"><img src="assets/img/tanjPart_1.jpg" className="img-fluid" alt="" /></div>
+                            <div className="swiper-slide" title="ESEOESE Publicidad - Advertising agencies in Malaga"><img src="assets/img/tanjPart_2.jpg" className="img-fluid" alt="" /></div>
+                            <div className="swiper-slide" title="SUNUGAL FISH SL, import & export fish from Africa to Worldwide"><img src="assets/img/tanjPart_3.jpg" className="img-fluid" alt="" /></div>
+                            <div className="swiper-slide" title="Estudios Produsom"><img src="assets/img/tanjPart_4.jpg" className="img-fluid" alt="" /></div>
+                            <div className="swiper-slide" title="Dakar Conexion"><img src="assets/img/tanjPart_5.jpg" className="img-fluid" alt="" /></div>
                         </div>
                         <div className="swiper-pagination"></div>
                     </div>
@@ -110,7 +109,9 @@ const Main = () => {
                 <div className="container">
                     <div className="section-title" data-aos="fade-up">
                         <h2>Services</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>
+                            With over 6 years of experience in business consulting, we have a lot to offer to our clients. Here are some reasons why companies worldwide choose us.
+                        </p>
                     </div>
 
                     <div className="row">
@@ -119,7 +120,7 @@ const Main = () => {
                                 <div className="icon"><i className="bi bi-briefcase"></i></div>
                                 <h4 className="title"><a href="">Fish Import & Export</a></h4>
                                 <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                                <p className="description">more...</p>
+                                <a href="">more...</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -127,6 +128,7 @@ const Main = () => {
                                 <div className="icon"><i className="bi bi-card-checklist"></i></div>
                                 <h4 className="title"><a href="">Clothing & Jewelries</a></h4>
                                 <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                                <a href="">more...</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -134,6 +136,7 @@ const Main = () => {
                                 <div className="icon"><i className="bi bi-bar-chart"></i></div>
                                 <h4 className="title"><a href="">Cosmetics</a></h4>
                                 <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                <a href="">more...</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -141,6 +144,7 @@ const Main = () => {
                                 <div className="icon"><i className="bi bi-binoculars"></i></div>
                                 <h4 className="title"><a href="">Art & Music</a></h4>
                                 <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                <a href="">more...</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
@@ -148,6 +152,7 @@ const Main = () => {
                                 <div className="icon"><i className="bi bi-brightness-high"></i></div>
                                 <h4 className="title"><a href="">Construction</a></h4>
                                 <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                                <a href="">more...</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
@@ -155,6 +160,7 @@ const Main = () => {
                                 <div className="icon"><i className="bi bi-calendar4-week"></i></div>
                                 <h4 className="title"><a href="">Furniture</a></h4>
                                 <p className="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                                <a href="">more...</a>
                             </div>
                         </div>
                     </div>
@@ -166,18 +172,7 @@ const Main = () => {
                 <div className="container">
                     <div className="section-title">
                         <h2 data-aos="fade-up">Portfolio</h2>
-                        <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                    </div>
-
-                    <div className="row" data-aos="fade-up" data-aos-delay="100">
-                        <div className="col-lg-12 d-flex justify-content-center">
-                            <ul id="portfolio-flters">
-                                <li data-filter="*" className="filter-active">All</li>
-                                <li data-filter=".filter-app">App</li>
-                                <li data-filter=".filter-card">Card</li>
-                                <li data-filter=".filter-web">Web</li>
-                            </ul>
-                        </div>
+                        {/* <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
                     </div>
 
                     <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
@@ -297,7 +292,7 @@ const Main = () => {
                                         </div>
                                     </div>
                                     <div className="member-info">
-                                        <h4>Walter White</h4>
+                                        <h4>Ibrahima Tanj</h4>
                                         <span>Chief Executive Officer</span>
                                     </div>
                                 </div>
@@ -315,7 +310,7 @@ const Main = () => {
                                         </div>
                                     </div>
                                     <div className="member-info">
-                                        <h4>Sarah Jhonson</h4>
+                                        <h4>Kumba Diouf</h4>
                                         <span>Product Manager</span>
                                     </div>
                                 </div>
@@ -333,7 +328,7 @@ const Main = () => {
                                         </div>
                                     </div>
                                     <div className="member-info">
-                                        <h4>William Anderson</h4>
+                                        <h4>Chiekh Fallou Gueye</h4>
                                         <span>CTO</span>
                                     </div>
                                 </div>
@@ -351,7 +346,7 @@ const Main = () => {
                                     </div>
                                 </div>
                                 <div className="member-info">
-                                    <h4>Amanda Jepson</h4>
+                                    <h4>Ngoneh Njie</h4>
                                     <span>Accountant</span>
                                 </div>
                             </div>
