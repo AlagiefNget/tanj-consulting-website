@@ -277,7 +277,7 @@ const Main = () => {
                 <div className="container">
                     <div className="section-title">
                         <h2 data-aos="fade-up">Team</h2>
-                        <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p data-aos="fade-up">Our great team members keeping our services at its best.</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
@@ -360,14 +360,15 @@ const Main = () => {
                 <div className="container">
                     <div className="section-title">
                         <h2 data-aos="fade-up">Contact</h2>
-                        <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p data-aos="fade-up">
+                            You can visit us at our location below or reach us on one of the contact details.
+                        </p>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
                             <div className="info-box">
                                 <i className="bx bx-map"></i>
                                 <h3>Our Address</h3>
-                                {/* <p>A108 Adam Street, New York, NY 535022</p> */}
                                 <p>
                                     47 Kairaba Avenue <br />
                                     Fajara, K.S.M.D <br />
