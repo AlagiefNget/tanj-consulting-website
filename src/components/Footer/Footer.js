@@ -3,8 +3,8 @@ const Footer = () => {
         <footer id="footer">
             <div className="footer-top">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-3 col-md-6 footer-contact">
+                    <div className="row" style={{margin: 'auto'}}>
+                        <div className="col-lg-4 col-md-4 footer-contact">
                             <h3>Tanj Consulting</h3>
                             <p>
                                 47 Kairaba Avenue <br />
@@ -16,7 +16,7 @@ const Footer = () => {
                             </p>
                         </div>
 
-                        <div className="col-lg-2 col-md-6 footer-links">
+                        <div className="col-lg-4 col-md-4 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
                                 <li><i className="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 footer-links">
+                        <div className="col-lg-4 col-md-4 footer-links">
                             <h4>Our Services</h4>
                             <ul>
                                 <li><i className="bx bx-chevron-right"></i> <a href="#services">Fish Import & Export</a></li>
